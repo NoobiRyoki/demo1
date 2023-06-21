@@ -1,0 +1,22 @@
+
+
+	<profile>
+		<id>test</id>
+		<properties>
+			<db.driver>com.mysql.jdbc.Driver</db.driver>
+			<db.url>jdbc:mysql://monserveurdetest/dbtest</db.url>
+			<db.username>user1</db.username>
+			<db.password>passw@rd1</db.password>
+		</properties>
+	</profile>
+	
+	<profile>	
+		<id>dev</id>
+		<properties>
+			<db.driver>com.mysql.jdbc.Driver</db.driver>
+			<db.url>jdbc:mysql://monserveurdetest/dbdev</db.url>
+			<db.username>root</db.username>
+			<db.password></db.password>
+		</properties>
+
+    </profile>	
